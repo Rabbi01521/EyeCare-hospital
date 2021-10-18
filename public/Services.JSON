@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "616d46e9aad356c8ae3342e9",
+    "index": 0,
+    "guid": "e4664397-2bd2-4547-bc55-3425584987d2",
+    "picture": "https://dhakaeyecarehospital.org/image/a46c3-cataract-picture.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/207d4-cataract-surgary.jpg",
+    "name": "Cataract and Phaco Surgery",
+    "about": "A cataract is a clouding of the natural lens in the eye that affects vision.  The lens is a clear part of the eye that helps to focus light, or an image, on the retina. The retina is the light sensitive tissue at the back of the eye. In a normal eye, light passes through the transparent lens to the retina. Once it reaches the retina, light is changed into nerve signals that are sent to the brain. The lens must be clear for the retina to receive a sharp image. If the lens is cloudy from a cataract, the image will be blurred.",
+    "Treatment": "There are no medicines with proven efficacy to prevent or treat cataract. The only effective treatment for cataract involves surgery is to remove the cataract and replace it with an intraocular lens implant. It is the most common surgical procedure around the world and is considered to be extremely successful and safe. Diabetes, hypertension and other general health problems are not a contraindication for cataract surgery and the cataract need not ‘mature’ for surgery. A cataract needs to be removed when vision loss interferes with your everyday activities, such as driving, reading, or watching TV. You and your eye care professional can make this decision together. Sometimes a cataract should be removed even if it does not cause problems with your vision. For example, a cataract should be removed if it prevents examination or treatment of another eye problem, such as age related macular degeneration or diabetic retinopathy. If you have cataracts in both eyes that require surgery, the surgery will be performed on each eye at separate times. Many people who need cataract surgery also have other eye conditions, such as age related macular degeneration or glaucoma. If you have other eye conditions in addition to cataract, talk with your doctor. Learn about the risks, benefits, alternatives, and expected results of cataract surgery."
+  },
+  {
+    "_id": "616d46e945c988e9aef19572",
+    "index": 1,
+    "guid": "0c35efb0-ab6c-49f2-8045-43066bfa379b",
+    "picture": "https://dhakaeyecarehospital.org/image/6323f-lasik-picture.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/d4934-lasik-details-page-picture-size.jpg",
+    "name": "LASIK & Refractive Surgery",
+    "about": "LASIK is a surgical procedure for correcting near sightedness (myopia), far sightedness (hyperopia) and cylindrical (Astigmatic) refractive errors. LASIK stands for Laser-Assisted in Situ Keratomileusis.",
+    "Treatment": "During LASIK surgery, a flap is created in the outer layers of the cornea. The flap is hinged and lifted so the excimer laser can treat only the underlying layer of the cornea. This circular flap remains attached to the cornea by a small hinge of tissue. The hinge enables the flap to be lifted away from the central cornea. A laser can then be used to reshape the exposed mid-layer of the cornea.The laser is used to create a flap using multiple short pulses. These pulses are so close together they create an almost complete separation of the flap from the rest of the cornea, but they do not actually lift the flap. If the flap pattern is judged to be complete and satisfactory, a delicate separation of the flap is performed with a few gentle manipulations using a surgical instrument.The surgeon then positions the patient’s eye under the excimer laser which is programmed to remove microscopic layers of tissue from the internal part of the cornea under the flap. The cool laser beam vaporizes tissue away, one microscopic layer at a time, without burning or cutting. This tissue does not completely replace itself after it is removed. Since the excimer laser light is created at a specified wavelength that does not pass through the cornea, no other part of the eye is affected."
+  },
+  {
+    "_id": "616d46e910b27d44d5ed79b8",
+    "index": 2,
+    "guid": "4af2ffda-dc36-4e9f-9c6e-f14a4ea5f309",
+    "picture": "https://dhakaeyecarehospital.org/image/ac7cb-speciality-services-picture-1.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/f1b12-glaucoma-details-page-picture-size-2.jpg",
+    "name": "Glaucoma",
+    "about": "Glaucoma is the term applied to a group of eye diseases that gradually result in loss of vision by permanently damaging the optic nerve, the nerve that transmits visual images to the brain. The leading cause of irreversible blindness, glaucoma often produces no symptoms until it is too late and vision loss has begun.",
+    "Treatment": "The damage caused by glaucoma can't be reversed. But treatment and regular checkups can help slow or prevent vision loss, especially in you catch the disease in its early stage. The goal of glaucoma treatment is to lower pressure in your eye (intraocular pressure). Depending on your situation, your options may include eye drops, laser treatment or surgery."
+  },
+  {
+    "_id": "616d46e986e2f389f4a5aeb5",
+    "index": 3,
+    "guid": "4171766a-d438-4068-bec6-f8fcf66e30bd",
+    "picture": "https://dhakaeyecarehospital.org/image/b62ee-cornea-external-disease.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/f2d6a-cornea-detail-page-picture.jpg",
+    "name": "Cornea & External Disease",
+    "about": "Diseases of the anterior section of the eye and cornea and infectious eye diseases are the focus of the cornea and external disease service, along with general ophthalmic care and screening for eye complications of systemic diseases and contact lens wear.",
+    "Treatment": "Some trauma, including projectile foreign bodies, lacerations and blunt trauma can cause scarring that clouds the cornea. Hereditary conditions including degenerations and dystrophies may also cloud the cornea. The most common hereditary condition seen in young people is keratoconus, a condition in which the cornea assumes a cone shape. This is common in children with Down’s syndrome and in people with allergic conjunctivitis. These patients may be able to use contact lenses or glasses for a period of time, but may eventually develop scarring and high astigmatism that cannot be corrected without corneal transplantation.."
+  },
+  {
+    "_id": "616d46e9bdeef42cacd5998a",
+    "index": 4,
+    "guid": "aa016479-d397-47d3-89ad-33bdc9ba46f0",
+    "picture": "https://dhakaeyecarehospital.org/image/16764-vitreo-retinal.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/311f1-vitreo-retinal-detail-page-picture.jpg",
+    "name": "Vitreo-Retina",
+    "about": "The eye is like a camera with a lens in front and a film (retina) at the back. The cornea and lens in the front of the eye focus the rays of light onto the retina which then converts the image into electrical signals that are sent to the brain through the optic nerve.",
+    "Treatment": "The eye is like a camera with a lens in front and a film (retina) at the back. The cornea and lens in the front of the eye focus the rays of light onto the retina which then converts the image into electrical signals that are sent to the brain through the optic nerve. The retina is a thin sheet of tissue which lines 2/3rds of the back of the eye. Fibers from all over the retina join to form the optic nerve which is in the center of the retina. A little to one side of the optic nerve is the main part of the retina called the macula. The macula is a very small area but is responsible for the detailed, central vision that we have (i.e. reading, writing, recognizing faces, seeing the watch, mobile numbers etc. The rest of the retina gives us peripheral vision essential for walking and driving."
+  },
+  {
+    "_id": "616d46e9577d2a7fd624af14",
+    "index": 5,
+    "guid": "7877df94-8452-4eb7-9aa7-804e01c1bf5e",
+    "picture": "https://dhakaeyecarehospital.org/image/62e47-pediatric-ophthalmology-and-squint.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/d8ef9-pediatric-ophthalmology-and-squint.jpg",
+    "name": "Pediatric Ophthalmology",
+    "about": "The Pediatric Ophthalmology / Orthoptic / Adult Strabismus Department’s primary mission is to deliver the highest quality comprehensive eye care to children from birth through their teen years. The Department also delivers specialized eye care for adults with double vision (diplopia) related to strabismus and other disorders effecting binocular vision.",
+    "Treatment": "Though strabismus, amblyopia and refractive errors are the most prevalent problems that are treated in the pediatric population, other ophthalmic diseases which effect children’s vision and binocular vision require a comprehensive eye care approach in children. All eye diseases potentially affect vision and consequently affect binocularity in these young patients whose visual systems are still growing and developing. For this reason, The Pediatric Ophthalmology Department has expanded over the last 10-15 years to develop specialized departments for pediatric congenital and acquired cataracts, pediatric glaucoma, pediatric retinal diseases, and pediatric corneal pathology. The Departments continues to expand the scope of services for children in specialty clinics in the hospital."
+  },
+  {
+    "_id": "616d46e93aa594d29dd0adbc",
+    "index": 6,
+    "guid": "71e24b03-fddf-4c98-bf46-dd241ab28a52",
+    "picture": "https://lh3.googleusercontent.com/proxy/FzGxwHTrL-aGKilE2HXLRMPk-0rx1SF3LVWfkCJ7YUrqDE9X6_uSvGsOc1I3Uzk6NPyDkh6cZXNf5XzkoHfey64a_HDlbDb7HJxoDLM",
+    "images": "https://dhakaeyecarehospital.org/image/897f7-lacrimal-orbit-oculoplasty.jpg",
+    "name": "Orbit and Oculoplasty",
+    "about": "Orbit refers to the eye-socket (the cavity in the skull that holds the eye) and the surrounding structures. Diseases of the Orbit may arise from within the eye-socket or might be a secondary condition arising out of an existing illness. While some of these issues could be cosmetic, quite a few of orbital problems might affect the regular functioning of the eyes. There’s sure relief for these conditions and oculoplasty is a cosmetic/reconstructive surgical procedure that comes to the rescue of patients with eye orbit problems.",
+    "Treatment": "It’s quite natural to admire those almond-shaped eyes of your child for hours. However, not all people in the world are lucky to have those perfectly shaped eyes. Some of us may have problems like drooping eyelids, protruding eyes, interned eyelashes, etc. Earlier, people would have to live with these malformations. However today, there are state-of-the-art treatment options that can rectify the issues. It is extremely important to identify the underlying cause for, all you know there could be a tumor down below that’s pushing out the eyes.The cavity in the skull that contains the eye is called the orbit. It is formed from parts of the frontal, sphenoid, zygomatic, lacrimal, ethmoid, palatine and maxillary bones."
+  },
+  {
+    "_id": "616d46e981b04adcd97312fd",
+    "index": 7,
+    "guid": "6241e7e2-fe15-4428-b389-3c73c2be6048",
+    "picture": "https://dhakaeyecarehospital.org/image/aa4fb-neuro-ophthalmology.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/e074a-neuro-ophthalmology.jpg",
+    "name": "Neuro-ophthalmology",
+    "about": "Neuro-ophthalmologyNeuro-ophthalmology Neuro-Ophthalmologist Neuro-ophthalmologists take care of visual problems that are related to the nervous system; that is, visual problems that do not come from the eyes themselves. We use almost half of the brain for vision-related activities, including sight and moving the eyes.",
+    "Treatment": "Some of the common problems evaluated by neuro-ophthalmologists include: optic nerve problems (such as optic neuritis and ischemic optic neuropathy), visual field loss, unexplained visual loss, transient visual loss, visual disturbances, double vision, abnormal eye movements, thyroid eye disease, myasthenia gravis, unequal pupil size, and eyelid abnormalities. Some of the common problems evaluated by neuro-ophthalmologists include: optic nerve problems (such as optic neuritis and ischemic optic neuropathy), visual field loss, unexplained visual loss, transient visual loss, visual disturbances, double vision, abnormal eye movements, thyroid eye disease, myasthenia gravis, unequal pupil size, and eyelid abnormalities."
+  },
+  {
+    "_id": "616d46e9c9651ca847de060f",
+    "index": 8,
+    "guid": "1fa53622-c344-4415-94ab-4d5fa44d7a8f",
+    "picture": "https://dhakaeyecarehospital.org/image/086ab-what-is-dry-eye-symptoms-treatment-causes-722x406.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/29d59-dech.jpg",
+    "name": "Dry Eye",
+    "about": "Dry eye disease was recently redeﬁned as a multifactorial disease of the ocular surface characterized by a loss of homeostasis of the tear ﬁlm, and accompanied by ocular symptoms, in which tear ﬁlm instability and hyperosmolarity, ocular surface inﬂammation and damage and neurosensory abnormalities play etiological roles.",
+    "Treatment": "Glands in the eyelids called Meibomian glands create the lipid (oil) layer of tear film. 70% of dry eye disease is caused by evaporative or lipid deficient dry eye. Evaporative Dry Eye disease is most often caused by a blockage or obstruction in the eyelid glands, which can lead to a lipid (oil) deficiency in the tears. Blockage of eyelid glands is called Meibomian Gland Dysfunction.  The cause of obstruction is believed to be poor quality oil production and Omega 3 deficiency.  Re-esterified Omega 3 supplements such as Omega Eye are very useful and important in correcting the underlying cause."
+  },
+  {
+    "_id": "616d46e9923320553d9aa563",
+    "index": 9,
+    "guid": "33462190-5a7e-428f-9460-3597bd954f04",
+    "picture": "https://dhakaeyecarehospital.org/image/e6fcc-ocular-trauma.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/ddefb-ocular-trauma.jpg",
+    "name": "Ocular Trauma",
+    "about": "Ocular trauma, although not an everyday encounter for many ophthalmologists, is a serious problem for our eye health system. ",
+    "Treatment": "You want to make sure the patient doesn't have any other occult injuries that could be more life-threatening than the ocular injury. Then, a history is helpful both for clinical management and for documentation in case of legal action down the road. Was it a high-velocity injury? Is there a possibility of penetration with a retained foreign body? Was there assault? Were drugs involved?  In the case of a motor vehicle collision, what were the details? Once you've made a global or systemic assessment and taken a history of the circumstances surrounding the injury, your examination should begin."
+  },
+  {
+    "_id": "616d46e9653d008f0ae5934b",
+    "index": 10,
+    "guid": "0a55085f-be29-455d-bded-5d09c6eb84e6",
+    "picture": "https://eyedoctordesmoines.com/storage/app/media/_EliteEyeCare/contact-lens2.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/d806c-contact-lens-1.jpg",
+    "name": "Contact Lens",
+    "about": "The Contact Lens Service at Dhaka Eye Care Hospital offers a full range of options including lenses for cosmetic restoration, visual correction, and therapeutic indications.",
+    "Treatment": "Purevision sphere, Toric, multi and glare monthly replacement lenses approved for 30 day continuous wear as well as aspheric lenses for night time driving. Northeastern eye Institute also offers the B&L Soflens daily disposable lenses. Sphere, toric and multi monthly replacement lenses that are approved for extended wear. Northeastern Eye Institute also offers the Freshlook sphere lens which is a 2-week replacement lens as well as colored lenses both from CIBA. Daily disposables contact lenses from Northeastern Eye Institute are ideal for those suffering from allergies and are very convenient for sportswear and social wear. Daily disposables are very healthy for your eyes since you do not have to sleep with them, store them, clean them or disinfect them."
+  },
+  {
+    "_id": "616d46e916b54c79125cc0ac",
+    "index": 11,
+    "guid": "d13017d5-db7e-4e0b-8419-d4b0cf1c5b1c",
+    "picture": "https://dhakaeyecarehospital.org/image/6923f-comprehensive-eye-check-up.jpg",
+    "images": "https://dhakaeyecarehospital.org/image/a985f-comprehensive-eye-check-up.jpg",
+    "name": "Comprehensive Eye Check Up",
+    "about": "Comprehensive eye exam each year is the best way to enjoy good vision throughout your life. Many eye and vision problems have no obvious signs or symptoms. As a result, individuals are often unaware that problems exist",
+    "Treatment": "Vision testing involves making a person read standard sized letters at a specified distance. The doctors record the vision as a fraction e.g. 6/6 etc. The top number denotes the distance (in feet) at which the patient has been able to read the particular sized letter while the bottom number indicates the distance at which a normal person is expected to read the same letter. Near vision is tested separately in good illumination using special test charts held at normal reading distance. The testing is done with each eye separately. The doctors often test the vision using a pinhole. This gives an estimate of improvement possible with glasses. The patient in place of glasses cannot use the pinhole."
+  }
+]
