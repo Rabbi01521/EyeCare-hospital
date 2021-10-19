@@ -1,12 +1,4 @@
 import React from "react";
-
-// const navigation = [
-//   { name: "Product", href: "#" },
-//   { name: "Features", href: "#" },
-//   { name: "Marketplace", href: "#" },
-//   { name: "Company", href: "#" },
-// ];
-
 const Banner = () => {
   return (
     <div className="relative my-4 bg-white overflow-hidden">
@@ -26,22 +18,8 @@ const Banner = () => {
                 communities.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  {/* <a
-                    href="/"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                  >
-                    Get started
-                  </a> */}
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  {/* <a
-                    href="/"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                  >
-                    Live demo
-                  </a> */}
-                </div>
+                <div className="rounded-md shadow"></div>
+                <div className="mt-3 sm:mt-0 sm:ml-3"></div>
               </div>
             </div>
           </main>

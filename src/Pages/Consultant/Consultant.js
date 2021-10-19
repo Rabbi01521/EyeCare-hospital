@@ -23,8 +23,12 @@ const Consultant = ({ doctor }) => {
           </div>
           <div className="w-2/3 p-4">
             <h1 className="text-gray-900 font-bold text-2xl">Dr. {name}</h1>
-            <p className="mt-2 text-gray-600 text-sm">{details}</p>
-            <p className="mt-2 text-gray-600 text-sm">{Specialist}</p>
+            <p className="mt-2 text-gray-600 text-sm">
+              {details.slice(0, 35)}...
+            </p>
+            <p className="mt-2 text-gray-600 text-sm">
+              {Specialist.slice(0, 35)}...
+            </p>
             <div className="flex item-center mt-2">
               <Rating
                 className="text-yellow-400"

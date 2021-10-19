@@ -1,8 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Fragment, useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
+import useAuth from "../../../hooks/useAuth";
 import logo from "../../../Images/eyecare_logo.png";
 
 function classNames(...classes) {
@@ -10,15 +11,27 @@ function classNames(...classes) {
 }
 
 const Header = () => {
+  const { user, logOut } = useAuth();
+  console.log(user);
+  const [name, setName] = useState("");
+  useEffect(() => {
+    const myFunc = () => {
+      setName(user);
+    };
+    myFunc();
+  }, [user]);
+  console.log(name);
+
+  console.log(name?.displayName);
   return (
     <Popover className="relative z-10 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <Link to="/home">
+            <NavLink to="/home">
               <span className="sr-only">EyeCare</span>
               <img className=" h-10 w-auto sm:h-10" src={logo} alt="" />
-            </Link>
+            </NavLink>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -36,26 +49,26 @@ const Header = () => {
                       "group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 "
                     )}
                   >
-                    <Link to="/home">
+                    <NavLink to="/home">
                       <span>Home</span>
-                    </Link>
+                    </NavLink>
                   </Popover.Button>
                 </>
               )}
             </Popover>
 
-            <Link
+            <NavLink
               to="/aboutus"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               About us
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/Consultants"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Consultants
-            </Link>
+            </NavLink>
 
             <Popover className="relative">
               {({ open }) => (
@@ -66,28 +79,40 @@ const Header = () => {
                       "group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 "
                     )}
                   >
-                    <Link to="/technologies">
+                    <NavLink to="/technologies">
                       <span>Technologies</span>
-                    </Link>
+                    </NavLink>
                   </Popover.Button>
                 </>
               )}
             </Popover>
           </Popover.Group>
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <Link
-              to="signin"
-              className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Sign in
-            </Link>
-            <Link
-              to="/signup"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-            >
-              Sign up
-            </Link>
-          </div>
+          {!user.email ? (
+            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+              <NavLink
+                to="/signin"
+                className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                Sign in
+              </NavLink>
+              <NavLink
+                to="/signup"
+                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              >
+                Sign up
+              </NavLink>
+            </div>
+          ) : (
+            <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+              <p>{user.displayName}</p>
+              <button
+                onClick={logOut}
+                className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              >
+                Log out
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
@@ -124,53 +149,63 @@ const Header = () => {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="flex flex-col my-4 items-center justify-center">
-                <Link
+                <NavLink
                   to="/home"
-                  href="/"
                   className="text-base my-2 font-medium text-gray-900 hover:text-gray-700"
                 >
                   Home
-                </Link>
+                </NavLink>
 
-                <Link
+                <NavLink
                   to="/aboutus"
-                  href="/"
                   className="text-base my-2 font-medium text-gray-900 hover:text-gray-700"
                 >
                   About us
-                </Link>
-                <Link
+                </NavLink>
+                <NavLink
                   to="/consultants"
-                  href="/"
                   className="text-base my-2 font-medium text-gray-900 hover:text-gray-700"
                 >
                   Consultants
-                </Link>
-                <Link
+                </NavLink>
+                <NavLink
                   to="/technologies"
                   className="text-base my-2 font-medium text-gray-900 hover:text-gray-700"
                 >
                   Technologies
-                </Link>
+                </NavLink>
               </div>
-              <div>
-                <Link
-                  to="/signup"
-                  href="/"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                >
-                  Sign up
-                </Link>
-                <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?{" "}
-                  <Link
-                    to="/signin"
-                    className="text-indigo-600 hover:text-indigo-500"
+              {!user.email ? (
+                <div>
+                  <NavLink
+                    to="/signup"
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                   >
-                    Sign in
-                  </Link>
-                </p>
-              </div>
+                    Sign up
+                  </NavLink>
+                  <p className="mt-6 text-center text-base font-medium text-gray-500">
+                    Existing customer?{" "}
+                    <NavLink
+                      to="/signin"
+                      className="text-indigo-600 hover:text-indigo-500"
+                    >
+                      Sign in
+                    </NavLink>
+                  </p>
+                </div>
+              ) : (
+                <div>
+                  <p className="mt-6 mb-4 text-center text-base font-medium text-gray-500">
+                    {user.displayName}
+                  </p>
+                  <button
+                    onClick={logOut}
+                    className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                  >
+                    Log out
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </Popover.Panel>
