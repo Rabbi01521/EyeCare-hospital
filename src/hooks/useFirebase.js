@@ -19,12 +19,14 @@ const useFirebase = () => {
   const [user, setUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const auth = getAuth();
+  // sign in using Google
   const signInUsingGoogle = () => {
     setIsLoading(true);
     const googleProvider = new GoogleAuthProvider();
     return signInWithPopup(auth, googleProvider);
   };
 
+  // signIn using Github
   const signInUsingGithub = () => {
     setIsLoading(true);
     const githubProvider = new GithubAuthProvider();
@@ -42,6 +44,7 @@ const useFirebase = () => {
     return signInWithEmailAndPassword(auth, email, password);
   };
 
+  // setUser Name
   const setUserName = (firstName, lastName) => {
     updateProfile(auth.currentUser, {
       displayName: firstName + " " + lastName,
@@ -49,7 +52,7 @@ const useFirebase = () => {
       console.log(result);
     });
   };
-
+  // email verified
   const verfiyEmail = () => {
     setIsLoading(true);
     sendEmailVerification(auth.currentUser).then((result) => {
@@ -70,6 +73,7 @@ const useFirebase = () => {
     return () => unsubscribed;
   }, [auth]);
 
+  // logout
   const logOut = () => {
     setIsLoading(true);
     signOut(auth)

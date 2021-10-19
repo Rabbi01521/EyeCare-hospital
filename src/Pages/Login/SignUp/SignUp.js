@@ -9,7 +9,6 @@ const SignUp = () => {
     signInUsingGithub,
     registerNewUser,
     setUserName,
-    verfiyEmail,
   } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -80,7 +79,7 @@ const SignUp = () => {
       setError("Password Must be 2 letters in Upper Case");
       return;
     }
-    /*     if (!/(?=.*[!@#$&*])/.test(password)) {
+    if (!/(?=.*[!@#$&*])/.test(password)) {
       setError("Password Must be one special case letter");
       return;
     }
@@ -91,18 +90,20 @@ const SignUp = () => {
     if (!/(?=.*[a-z].*[a-z].*[a-z])/.test(password)) {
       setError("Ensure string has three lowercase letters");
       return;
-    } */
+    }
     console.log(email, password);
     registerNewUser(email, password)
       .then((result) => {
         const user = result.user;
-
         setUserName(firstName, lastName);
-        verfiyEmail();
+
+        // verfiyEmail();
         history.push(redirect_uri);
         setError("");
-        const userLocal = localStorage.setItem("user", JSON.stringify(user));
-        console.log(userLocal);
+
+        window.location.reload(redirect_uri);
+        // const userLocal = localStorage.setItem("user", JSON.stringify(user));
+        // console.log(userLocal);
         console.log(user);
       })
       .catch((error) => {
@@ -113,7 +114,7 @@ const SignUp = () => {
       });
   };
 
-  // console.log(fastName, lastName, email, password);
+  console.log(firstName, lastName, email, password);
   return (
     <div>
       <div className="grid min-h-screen place-items-center">

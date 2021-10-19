@@ -13,11 +13,8 @@ function classNames(...classes) {
 const Header = () => {
   const { user, logOut } = useAuth();
   console.log(user);
-  // const [name, setName] = useState({});
-
-  // console.log(name?.displayName);
-  const getUser = JSON.parse(localStorage.getItem("user"));
-  console.log(getUser);
+  // const getUser = JSON.parse(localStorage.getItem("user"));
+  // console.log(getUser);
   return (
     <Popover className="relative z-10 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -99,7 +96,7 @@ const Header = () => {
             </div>
           ) : (
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <p>{user.email.slice(0, 10)}</p>
+              <p>{user.displayName}</p>
               <button
                 onClick={logOut}
                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
