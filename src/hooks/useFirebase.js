@@ -74,6 +74,7 @@ const useFirebase = () => {
     setIsLoading(true);
     signOut(auth)
       .then(() => {
+        localStorage.removeItem("user");
         console.log("sign Out");
       })
       .finally(() => {

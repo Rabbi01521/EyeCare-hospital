@@ -4,20 +4,32 @@
 
 ### UI ScreenShot :
 
-<img src="https://i.ibb.co/CbD4rc3/React-App.png" alt="React-App" border="0">
-<img src="https://i.ibb.co/ZBMZ9Lv/React-App-1.png" alt="React-App-1" border="0">
-<img src="https://i.ibb.co/4Mch73y/React-App-2.png" alt="React-App-2" border="0">
-<img src="https://i.ibb.co/qWLr3vX/React-App-3.png" alt="React-App-3" border="0">
+<img src="https://i.ibb.co/R7JHKr9/React-App-9.png" alt="React-App-9" border="0">
+<img src="https://i.ibb.co/b74f71W/React-App-8.png" alt="React-App-8" border="0">
+<img src="https://i.ibb.co/vvRTmKr/React-App-7.png" alt="React-App-7" border="0">
+<img src="https://i.ibb.co/N71gtNS/React-App-6.png" alt="React-App-6" border="0">
+<img src="https://i.ibb.co/jyMhZ8r/React-App-5.png" alt="React-App-5" border="0">
+<img src="https://i.ibb.co/KG7tvBn/React-App-4.png" alt="React-App-4" border="0">
 
 ### Features:
 
 - user can visit all the page through routing .
-- user can show courses and services in one page.
+- user can login.
+- New user can register.
 - user can show instructors also by visiting instructor page.
+- user can visit all pages but if user is logged in.
+- user can logged in by Github and Google.
+- if Router not matched then user see 404 page.
+- After reloading the page on a private route, the user should not be redirected to the login page.
+- if user enter wrong email and password then it show error message.
+- Once logged in, the user name, logout button should appear on the header which will log out the user once clicked.
+-
 
 ### Technology :
 
 - React
-- Tailwind CSS & components
-- Own API (for fetching people)
-- Services API (for fetching Services)
+- React Tailwind CSS & components
+- Own API (for fetching data)
+- React Router
+- FireBase
+- full Responsive

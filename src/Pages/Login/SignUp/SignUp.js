@@ -101,6 +101,8 @@ const SignUp = () => {
         verfiyEmail();
         history.push(redirect_uri);
         setError("");
+        const userLocal = localStorage.setItem("user", JSON.stringify(user));
+        console.log(userLocal);
         console.log(user);
       })
       .catch((error) => {
