@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "6159e371896792fb26af480q",
+    "index": 0,
+    "picture": "https://avatars.githubusercontent.com/u/1848375?v=4",
+    "details": "MS, MBBS, Fellow Glaucoma & Phacoemulsification Cataract Surgery",
+    "Specialist": "Phaco & Glaucoma Specialist",
+    "name": "Jhanker Mahbub",
+    "rating": 5
+  },
+  {
+    "_id": "6159e371896792fb26af480f",
+    "index": 1,
+    "picture": "https://avatars.githubusercontent.com/u/67517709?v=4",
+    "details": "MBBS, MCPS (Ophth), FCPS (Ophth), MS (Ophth) BSMMU",
+    "Specialist": "Eye, Microsurgery & Phaco Specialist",
+    "name": "Mezbaul Abedin",
+    "rating": 4.7
+  },
+  {
+    "_id": "6159eada3d4d4d4d919b6c89",
+    "index": 2,
+    "picture": "https://avatars.githubusercontent.com/u/76469440?v=4",
+    "details": "MBBS, D.O, FICO (England)",
+    "Specialist": "Eye Specialist & Surgeon",
+    "name": "Raju Biswas",
+    "rating": 4.1
+  },
+  {
+    "_id": "6159eadac40e3cb55b59852d",
+    "index": 3,
+    "picture": "https://avatars.githubusercontent.com/u/48330620?v=4",
+    "details": "MBBS (DU), MS (Eye)",
+    "Specialist": "Eye Specialist & Surgeon",
+    "name": "Roky Das",
+    "rating": 4.3
+  },
+  {
+    "_id": "6159eadaa4922978e8c25264",
+    "index": 4,
+    "picture": "https://avatars.githubusercontent.com/u/67525149?v=4",
+    "details": "MBBS, MCPS (Eye), FICO (London), FCPS (Eye)",
+    "Specialist": "Phaco & Glaucoma Specialist",
+    "name": "Israfil Hossen",
+    "rating": 3
+  },
+  {
+    "_id": "6159eadaa7434493a4551c2c",
+    "index": 5,
+    "picture": "https://avatars.githubusercontent.com/u/45663445?v=4",
+    "details": "MBBS, FCPS (Eye), DCO (CU), FOCO (UK)",
+    "Specialist": "Eye Specialist & Phaco Surgeon",
+    "name": "AL-AMIN HOWLADER",
+    "rating": 4.7
+  },
+  {
+    "_id": "6159eada4bd2cf85fa58d991",
+    "index": 6,
+    "picture": "https://avatars.githubusercontent.com/u/58527783?v=4",
+    "details": "MBBS (DMC), BCS (Health), MS (Ophth)",
+    "Specialist": "Eye Specialist & Phaco Surgeon",
+    "name": "Asif Iqbal",
+    "rating": 4
+  },
+  {
+    "_id": "6159eadadce250bb51992149",
+    "index": 7,
+    "picture": "https://avatars.githubusercontent.com/u/69711290?v=4",
+    "details": "MBBS, DO (DU), FCRS (SNEC, Sungapure)",
+    "Specialist": "Phaco & Glaucoma Specialist",
+    "name": "Sagar Biswas",
+    "rating": 4.2
+  },
+  {
+    "_id": "6159eada2b38d757d275a0d0",
+    "index": 8,
+    "picture": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/217622200_4302581736471958_7602572517550122676_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=7tTIwkEU7EUAX-tKW5T&_nc_ht=scontent.fdac5-1.fna&oh=10937d441c2a2e770f08a2a9e4071d4c&oe=617EC34D",
+    "details": "MS (Ophth), MBBS (Dhaka)",
+    "Specialist": "Eye & Phaco Specialist",
+    "name": "Rezaul Karim",
+    "rating": 3.5
+  },
+  {
+    "_id": "6159eadae7c115b332bb83b3",
+    "index": 9,
+    "picture": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/242610428_1356927134723316_6812770327009907630_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=hq3ggkMVcGoAX-CMP3P&_nc_ht=scontent.fdac5-2.fna&oh=89186896231cd9abd4b2e98e183274e1&oe=618159D3",
+    "details": "MBBS(DU),DO(BSMMU)",
+    "Specialist": "Consultant Ophthalmologist",
+    "name": "Azizul Islam Milton",
+    "rating": 4
+  },
+  {
+    "_id": "6159eada2f87be8530d2e39d",
+    "index": 10,
+    "picture": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/66403571_1053075638414297_8365478849491763200_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ZGsB5VGnvPMAX-Rzlx-&_nc_ht=scontent.fdac5-2.fna&oh=eab78f7e186ed3de088330f4353674a5&oe=617F8A81",
+    "details": "MBBS (Dhaka), DO (BSMMU)",
+    "Specialist": "Consultant Ophthalmologist",
+    "name": "Sakib Ahmed",
+    "rating": 4.3
+  },
+  {
+    "_id": "6159eada2f87be8530d2e391",
+    "index": 11,
+    "picture": "https://avatars.githubusercontent.com/u/46109431?v=4",
+    "details": "FCPS (Eye), D.O. MBBS, Fellow Pediatic Ophthalmology & Squint, University of Michigan, USA",
+    "Specialist": "Pediatric Ophthalmology & Squint Specialist",
+    "name": "Muktadir Hassan",
+    "rating": 4.6
+  },
+  {
+    "_id": "6159eada2f87be8530d2e39p",
+    "index": 12,
+    "picture": "https://scontent.fdac5-2.fna.fbcdn.net/v/t39.30808-6/237486074_3066869396931612_1250967033262156293_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ExoepbB4Ap4AX9AsmxH&_nc_ht=scontent.fdac5-2.fna&oh=6bdcee2ccc8b30238fba60f9cb362f64&oe=61608EF9",
+    "details": "MBBS (Dhaka), DO, MS (Vienna)",
+    "Specialist": "Consultant, Orbit & Oculoplasty",
+    "name": "Gias Uddin",
+    "rating": 4.3
+  },
+  {
+    "_id": "6159eada2f87be8g30d2e39p",
+    "index": 13,
+    "picture": "https://avatars.githubusercontent.com/u/42003336?v=4",
+    "details": "MBBS, DO (DU), FCRS (SNEC, Sungapure)",
+    "Specialist": "Cataract, Orbit & Oculoplasty Specialist",
+    "name": "Shahbaj Khan Toky",
+    "rating": 4.5
+  },
+  {
+    "_id": "6159eada2f87be853kd2e39p",
+    "index": 14,
+    "picture": "https://i.ibb.co/KrK2CRZ/Webp-net-resizeimage.jpg",
+    "details": "MS (Ophth), MBBS (Dhaka).",
+    "Specialist": "Consultant, Orbit & Oculoplasty",
+    "name": "Emdadul Hoque",
+    "rating": 4.7
+  }
+]

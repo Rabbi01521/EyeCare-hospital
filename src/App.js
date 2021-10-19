@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Aboutus from "./Pages/Aboutus/Aboutus";
+import Appointment from "./Pages/Appointment/Appointment";
+import Consultants from "./Pages/Consultants/Consultants";
 import Home from "./Pages/Home/Home/Home";
 import Login from "./Pages/Login/Login/Login";
 import SignUp from "./Pages/Login/SignUp/SignUp";
@@ -40,6 +42,12 @@ function App() {
           </Route>
           <Route path="/technologies">
             <Technologies></Technologies>
+          </Route>
+          <Route path="/consultant/:docId">
+            <Appointment></Appointment>
+          </Route>
+          <Route path="/Consultants">
+            <Consultants></Consultants>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

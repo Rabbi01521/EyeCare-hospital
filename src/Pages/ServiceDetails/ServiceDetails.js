@@ -14,14 +14,21 @@ const ServiceDetails = () => {
   return (
     <div className="">
       {/* <h1 className="text-center text-9xl">this is service : {serviceId}</h1> */}
-      <div
-        className=" h-32  flex justify-center items-center  bg-left-top bg-auto bg-repeat-x"
-        style={{
-          backgroundImage: `url(https://www.khidmahhospital.com/public/pageasset/images/inner-banner/about-bnr.jpg)`,
-        }}
-      >
-        <div className="w-full text-center">
-          <h1 className="font-bold text-5xl text-black">{findService?.name}</h1>
+      <div>
+        <div>
+          <div
+            className="  h-40 bg-green-800	bg-left-top bg-auto bg-repeat-x  flex justify-center items-center"
+            style={{
+              backgroundImage:
+                "url(https://specialisthospital.in/wp-content/uploads/2020/09/aboutus_banner.jpg)",
+              backgroundAttachment: "fixed",
+              backgroundSize: "cover",
+            }}
+          >
+            <h1 className="border-4 border-indigo-500 border-opacity-100 text-blue-800 p-3 text-3xl font-black">
+              {findService?.name}
+            </h1>
+          </div>
         </div>
       </div>
       <section className="relative pt-12 bg-blueGray-50 my-8">

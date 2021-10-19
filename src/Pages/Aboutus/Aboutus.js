@@ -7,7 +7,7 @@ const Aboutus = () => {
       <div>
         <div>
           <div
-            className="h-80 bg-green-800	bg-left-top bg-auto bg-repeat-x  flex justify-center items-center"
+            className="h-40 bg-green-800	bg-left-top bg-auto bg-repeat-x  flex justify-center items-center"
             style={{
               backgroundImage:
                 "url(https://specialisthospital.in/wp-content/uploads/2020/09/aboutus_banner.jpg)",
