@@ -16,7 +16,11 @@ const Consultant = ({ doctor }) => {
             }}
           >
             <img
-              src={picture ? picture : ""}
+              src={
+                picture
+                  ? picture
+                  : "https://img.freepik.com/free-vector/doctor-character-background_1270-84.jpg?size=338&ext=jpg"
+              }
               alt=""
               className="w-full h-full"
             />

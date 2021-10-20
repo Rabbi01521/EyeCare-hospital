@@ -96,11 +96,9 @@ const SignUp = () => {
       .then((result) => {
         const user = result.user;
         setUserName(firstName, lastName);
-
         // verfiyEmail();
         history.push(redirect_uri);
         setError("");
-
         window.location.reload(redirect_uri);
         // const userLocal = localStorage.setItem("user", JSON.stringify(user));
         // console.log(userLocal);
